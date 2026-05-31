@@ -18,6 +18,17 @@ def caesar(code_or_decode,original_text,shift_amount):
 
     print(cypher_text)
 
+print(r'''
+     _____                                 _____             _               
+    /  __ \                               /  __ \           | |              
+    | /  \/ __ _  ___  ___  __ _ _ __     | /  \/_   _ _ __ | |__   ___ _ __ 
+    | |    / _` |/ _ \/ __|/ _` | '__|    | |   | | | | '_ \| '_ \ / _ \ '__|
+    | \__/\ (_| |  __/\__ \ (_| | |       | \__/\ |_| | |_) | | | |  __/ |   
+     \____/\__,_|\___||___/\__,_|_|        \____/\__, | .__/|_| |_|\___|_|   
+                                                  __/ | |                    
+                                                 |___/|_|
+''')
+
 while yes:
     direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
     text = input("Type your message:\n").lower()
